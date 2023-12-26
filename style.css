@@ -82,7 +82,7 @@ section{
   width: 25rem;
   /* margin-left: 20%; */
   border-radius: 50%;
-  box-shadow: 0 0 8rem rgba(55, 55, 55, 0.384);
+  box-shadow: 0 0 8rem #4070f45b;
 }
 .detail{
   width: 50%;
@@ -360,8 +360,9 @@ section .section-img #git-img, #linkedin-img{
 
 
 /* contact us page */
-/* #contact-page{
-  height: 100vh;
+#contact-page{
+  width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -371,24 +372,45 @@ section .section-img #git-img, #linkedin-img{
   display: flex;
   flex-direction: row;
   border: 0.1rem solid rgb(157, 157, 157);
-  border-radius: 24px;
-  padding: 2rem 4rem;
+  border-radius: 30px;
+  padding: 1.3rem 3rem;
   gap: 2rem;
 }
-.email{
+.box2{
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
   width: fit-content;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
-.email .image{
-  width: 3rem;
+.image{
+  width: 2.5rem;
 }
 #email-icon{
   width: inherit;
 }
-.email .text{
+.box2 .text{
+  font-size: 1.2rem;
+  
+}
+#linkedin-icon{
+  width: 2rem;
+}
+.page-links{
   display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1.5rem;
+  list-style: none;
+  margin: 3rem 0 2.5rem 0;
+}
+
+.copyright{
+  display: flex;
+  justify-self: center;
   align-items: center;
-  fo
-} */
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: rgb(94,94,94) ;
+}
