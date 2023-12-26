@@ -323,16 +323,18 @@ section .section-img #git-img, #linkedin-img{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 0 20% 0 10%;
+  padding: 0 2rem;
   justify-content: space-between;
+  /* background-color: aqua; */
   gap: 2.6rem;
   padding-top: 4%;
 }
 .box{
-  width: 30%;
+  width: 10rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  /* background-color: antiquewhite; */
 }
 .img1{
   width: 2rem;
